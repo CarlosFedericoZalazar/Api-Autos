@@ -1,5 +1,5 @@
 # API Autos
-Esta es una API a modo de practica.
+Esta es una API a modo de practica. Se simula una base de datos de autos con diferentes marcas y motores (archivo guardado en data/autos.json).
 
 ## Endpoints
 --- Base URL: https://api-autos-three.vercel.app/

@@ -1,8 +1,10 @@
 const express = require('express');
+import cors from "cors";
 const app = express();
 
 const carsRoutes = require('./routes/cars_routes');
 
+app.use(cors());
 app.use('/cars', carsRoutes);
 
 app.listen(3000, () => {
