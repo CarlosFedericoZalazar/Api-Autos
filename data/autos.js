@@ -2399,5 +2399,18 @@ export const autos = [
      "cilindrada": "2.6 L",
      "precio": "30661 USD",
      "pais": "Japón"
- }
+ },
+ {
+  "id": 201,
+  "marca": "Renault",
+  "modelo": "18",
+  "motor": "nafta",
+  "tipo": "sedán",
+  "año": 1983,
+  "potencia": "105 HP",
+  "cilindrada": "2.0 L",
+  "precio": "1000 USD",
+  "pais": "Francia"
+}
+
 ]
