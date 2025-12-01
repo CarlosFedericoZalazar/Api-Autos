@@ -1,8 +1,52 @@
 import { autos } from "../data/autos.js";
 
-export const GetCars = (req, res) => {
-  res.send(autos);
-}
+export const GetCars = async (req, res) => {
+  const { data, error } = await supabase
+  .from('autos')   // tu tabla en Supabase
+    .select('*');    // selecciona todas las columnas
+    
+  if (error) {
+    console.error(error);
+    return res.status(500).json({ message: "Error obteniendo autos", error });
+  }
+
+  res.json(data);
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// export const GetCars = (req, res) => {
+//   res.send(autos);
+// }
+
 
 export const GetCarByMarca = (req, res) => {
   const marca = (req.params.marca || "").toLowerCase();
