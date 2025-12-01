@@ -1,4 +1,5 @@
 import { autos } from "../data/autos.js";
+import { supabase } from "../db/supabase.js";
 
 export const GetCars = async (req, res) => {
   const { data, error } = await supabase
