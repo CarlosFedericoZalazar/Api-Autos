@@ -1,8 +1,9 @@
-const express = require('express');
-import cors from "cors";
-const app = express();
+import 'dotenv/config';
+import express from 'express';
+import cors from 'cors';
+import carsRoutes from './routes/cars_routes.js';
 
-const carsRoutes = require('./routes/cars_routes');
+const app = express();
 
 app.use(cors());
 app.use('/cars', carsRoutes);
