@@ -1,0 +1,3 @@
+1) - actualizar el .env
+2) - hacer el git push
+3) - probar el pullman
