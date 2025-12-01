@@ -12,7 +12,7 @@ Esta es una API a modo de practica. Se simula una base de datos de autos con dif
 - npm install (para instalar las dependencias)
 
 ## Endpoints
---- Base URL: https://api-autos-three.vercel.app/
+--- Base URL: https://api-autos-three.vercel.app/ `(IMPORANTE: Cargar la variable de entorno para la conexión a la base de datos de Supabase. Clave: SUPABASE_URL y SUPABASE_KEY)`
 
 - GET /cars: Obtiene la lista de autos.
 - GET /cars/:marca: Obtiene un auto por su marca.
