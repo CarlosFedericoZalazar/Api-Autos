@@ -3,6 +3,8 @@ import { supabaseAdmin, supabaseAnon } from "../db/supabase.js";
 // =============================================
 // GET ALL CARS
 // =============================================
+
+
 export const GetCars = async (req, res) => {
   const { data, error } = await supabaseAnon
     .from('autos')
