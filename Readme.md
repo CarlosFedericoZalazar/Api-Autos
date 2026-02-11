@@ -42,8 +42,8 @@ API desarrollada a modo de práctica. Permite obtener, filtrar y crear autos uti
 🔵 GET – Endpoints públicos
 
 - GET /cars: Obtiene la lista de autos.
-- GET /cars/:marca: Obtiene un auto por su marca.
-- GET /cars/:marca/:motor: Obtiene un auto por su marca y motor.
+- GET /cars/marca/:marca: Obtiene un auto por su marca.
+- GET /cars/marca/:marca/:motor: Obtiene un auto por su marca y motor.
 
 Todos los endpoints GET son públicos.
 No requieren autenticación.
